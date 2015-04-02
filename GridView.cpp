@@ -86,6 +86,10 @@ void GridView::_updateContentSize()
 
     Size size = Size::ZERO;
 
+    if (_rowNum == 0 && _colNum == 0) {
+        return ;
+    } 
+
     if (_cellsCount > 0)
     {
         switch (this->getDirection())
@@ -219,6 +223,10 @@ void GridView::_updateCellPositions()
     _cellsCount = _dataSource->numberOfCellsInTableView(this);
 
     _vCellsPositions.resize(_cellsCount, Point(0, 0));
+
+    if (_rowNum == 0 && _colNum == 0) {
+        return ;
+    } 
 
     if (_cellsCount > 0)
     {
