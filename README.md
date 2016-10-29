@@ -9,4 +9,4 @@ NOTE:
     - `setRowNum`
     - `setColNum`
 - To run `GridViewTest`, you can copy the _GridViewTest_ folder to `${COCOS_X_ROOT}/tests/cpp-tests/Classes/ExtensionsTest` and replace the _ExtensionsTest.cpp_.
-- You can refer to [an article in my blog (in Chinese)](http://galoisplusplus.gitcafe.io/blog/2014/09/20/gridview-in-cocos2d-x/) for further details.
+- You can refer to [an article in my blog (in Chinese)](http://galoisplusplus.coding.me/blog/2014/09/20/gridview-in-cocos2d-x/) for further details.
