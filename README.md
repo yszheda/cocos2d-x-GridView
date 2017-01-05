@@ -3,6 +3,8 @@ cocos2d-x-GridView
 
 GridView (2D TableView) in cocos2d-x
 
+![Demo gif](./gridview.gif)
+
 NOTE:
 - Some methods of the `TableView` class should be declared as `virtual`, you'd better replace or merge _CCTableView.h_ in your cocos2d-x source code directory with the one in the repo.
 - Either of the following methods of the `GridView` must be called:
